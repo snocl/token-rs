@@ -1,0 +1,5 @@
+[package]
+
+name = "hamsa"
+version = "0.0.1"
+authors = ["Jakob Lautrup Nysom <jaln@itu.dk>"]
