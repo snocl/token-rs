@@ -3,7 +3,7 @@ This is a small package containing a simple string-tokenizer for the rust progra
 
 **Documentation**
 
-Not hosted yet, but you can build it using 'cargo doc'
+[machtan.github.io/token-rs/token](machtan.github.io/token-rs/token)
 
 # Building
 Add the following to your Cargo.toml file
