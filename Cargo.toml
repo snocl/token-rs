@@ -1,5 +1,5 @@
 [package]
 
-name = "hamsa"
-version = "0.0.1"
+name = "token"
+version = "1.0.0-rc1"
 authors = ["Jakob Lautrup Nysom <jaln@itu.dk>"]

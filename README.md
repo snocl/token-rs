@@ -1,0 +1,31 @@
+# Token-rs
+This is a small package containing a simple string-tokenizer for the rust programming language. The package also contains a simple sentence-splitting iterator (this may or may not be moved, once I find out where I want it to stay).
+
+**Documentation**
+
+Not hosted yet, but you can build it using 'cargo doc'
+
+# Building
+Add the following to your Cargo.toml file
+
+[dependencies.token]
+git = "https://github.com/machtan/token-rs"
+
+# Examples
+
+```rust
+extern crate token;
+
+let separators = vec![' ', '\n', '\t', '\r'];
+let source: &str = "    Hello world \n  How do you do\t-Finely I hope";
+
+let mut tokenizer = tokenizer::Tokenizer::new(source.as_bytes(), separators);
+println!("Tokenizing...");
+for token in tokenizer {
+    println!("- Got token: {}", token.unwrap());
+}
+println!("Done!");
+```
+
+# License
+MIT (do what you want with it)
