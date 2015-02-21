@@ -1,5 +1,6 @@
 # Token-rs
 [![Build status (master)](https://travis-ci.org/Machtan/token-rs.svg?branch=master)](https://travis-ci.org/Machtan/token-rs)
+
 This is a small package containing a simple string-tokenizer for the rust programming language. The package also contains a simple sentence-splitting iterator.
 
 (The sentence splitter might be moved, once I find out where I want it).
