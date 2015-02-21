@@ -3,9 +3,9 @@
 name            = "token"
 version         = "1.0.0-rc1"
 authors         = ["Jakob Lautrup Nysom <jaln@itu.dk>"]
+readme          = "README.md"
 documentation   = "https://machtan.github.io/token-rs/token"
 repository      = "https://github.com/Machtan/token-rs"
-readme          = "README.md"
 keywords        = ["string", "tokenizer", "sentence", "splitter"]
 license         = "MIT"
 description     = """
