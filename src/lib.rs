@@ -134,7 +134,7 @@ impl <'a, R: Read> SentenceSplitter<'a, R> {
             let s = match try!(self.tokenizer.next()) {
                 Some(s) => s,
                 None => {
-                    if self.current.len() != 0 {
+                    if !self.current.is_empty() {
                         return Ok(Some(&self.current));
                     } else {
                         return Ok(None);
